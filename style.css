@@ -1,0 +1,493 @@
+* {
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.strana{
+width:100%;
+font-family: 'Crete Round', serif;	
+margin:auto;
+}
+
+.top{
+width:100%;
+height:90px;
+background-color:white;
+
+}
+
+.logo{
+width:378px;
+height:74px;
+position:absolute;
+left:40px;
+top:10px;
+}
+
+.navigacija{
+width:770px;
+height:50px;
+background-color:white;
+float:right;
+margin-top:23px;
+
+}
+
+
+.meni{
+display:flax;	
+}
+
+.meni a {
+flex-grow:1;
+text-align:center;
+margin-right:20px;
+font-size:28px; 
+text-decoration:none;
+color:black ;
+transition: 500ms;	
+font-family: 'Francois One', sans-serif;
+text-transform: uppercase;
+}
+
+.meni a:hover {
+background: #2384B5;
+color:white;
+border-radius:5px;
+text-decoration:none;
+}
+/*kraj hedera*/
+
+#cover {
+ width: 100%;
+ height: 551px;
+ border-radius:5px;
+}
+
+/*slika*/
+
+
+.divakcija{
+width:100%;
+height:234px;
+display:flax;
+}
+.divakcija img{
+flex-grow:1;
+}
+
+.popustlinija{
+width:100%;
+height:15px;
+background-color:#129CCB;
+}
+/*kraj popusta slika*/
+
+
+
+/*mapa*/
+
+#map{
+width:100%;
+height:300px;
+background-color:white;
+}
+
+/*kraj mape*/
+/*footer*/
+
+.footer{
+width:100%;
+height:340px;
+background-color:rgb(39, 39, 39);
+
+}
+.sredinafutera{
+width:380px;
+height:74px;
+margin:auto;
+background-color:rgb(39, 39, 39);
+padding-top:10px;
+}
+.ulica{
+color:white;
+font-size:20px;
+font-family: 'Crete Round', serif;	
+text-align:center;
+
+}
+.linija{
+width:200px;
+height:1px;
+margin:auto;
+background-color:#2384B5;
+
+}
+.broj{
+color:white;
+font-size:30px;
+font-family: 'Crete Round', serif;	
+text-align:center;
+
+}
+.social{
+width:380px;
+height:35px;
+background-color:rgb(39, 39, 39);
+text-align:center;
+}
+
+.slicica{
+width:35px;
+height:35px;
+
+}
+
+.back-to-top{
+width:85px;
+height:80px;
+background-color:rgb(39, 39, 39);
+border-radius:15px;
+float:right;
+margin-top:150px;
+margin-right:10px;
+
+}
+
+.up{
+width:85px;
+height:80px;
+
+}
+/*kraj futera*/
+
+/*KONTAKT*/
+
+#futer-mapa{
+
+width:100%;
+height:600px;
+background-color:white;
+margin:auto;	
+display:flex;
+padding-top:60px;	
+}
+
+#podaci{
+flex-grow:1;	
+height:500px;
+background-color:white;	
+padding-top:10%;	
+	
+}
+
+#mapadesno{
+flex-grow:1;	
+height:500px;
+background-color:white;	
+	
+}
+
+.ulica-kontakt{
+text-align:center;
+font-size:28px;
+font-family: 'Crete Round', serif;
+color:black;
+
+}
+
+#linijafutera-kontakt{
+width:300px;
+margin:auto;
+height:4px;
+background-color:#2384B5;	
+}
+
+.broj-kontakt{
+text-align:center;
+font-size:35px;
+font-family: 'Crete Round', serif;	
+color:black;
+	
+}
+
+#slicice-kontakt{
+width:80px;
+height:36px;
+background-color:white;
+margin:auto;
+	
+}
+
+.ikonice{
+width:35px;
+height:35px;
+float:left;
+margin-right:5px;
+}
+
+#kontaktforma{
+border-radius:10px;
+background-color:#2384B5;
+padding:20px;
+width:600px;
+margin:auto;
+margin-bottom:30px;
+color:white;
+font-size:21px;
+
+
+}
+input[type=prezime]{
+width:400px;
+padding:15px 10px;
+margin:10px 0;
+border:1px solid black;
+border-radius:4px;
+box-sizing:border-box;	
+font-size:15px;	
+margin-left:52px;
+
+}
+#birajtrening{
+width:400px;
+padding:15px 10px;
+margin:10px 0;
+border:1px solid black;
+border-radius:4px;
+box-sizing:border-box;	
+font-size:15px;	
+margin-left:55px;
+color:grey;
+
+}
+input[type=imeklijenta]{
+width:400px;
+padding:15px 10px;
+margin:10px 0;
+border:1px solid black;
+border-radius:4px;
+box-sizing:border-box;	
+font-size:15px;	
+margin-left:90px;
+
+
+}
+
+
+input[type=submit]{
+width:100%;
+background-color:#19AD17;
+color:white;
+padding:10px 15px;
+margin:10px 0;
+border:none;
+border-radius:4px;
+cursor:pointer;
+font-size:20px;
+
+}
+input[type=date]{
+width:400px;
+background-color:white;
+color:black;
+border:1px solid black;
+border-radius:4px;
+margin-left:63px;
+font-size:20px;
+color:#636363;
+
+}
+
+
+
+.futer-kontakt{
+width:100%;
+height:120px;
+background-color: rgb( 39, 39, 39);	
+}
+
+.futer-logo-kontakt{
+display:block;
+margin:auto;
+
+}
+
+
+/*CENOVNIK*/
+.slideshow-linija{
+width:100%;
+height:30px;
+background-color:#2384b5;	
+border:1px solid grey;
+}
+
+#sredina-cenovnik{
+width:100%;
+height:1400px;
+background-color:#dde9f0;
+padding:20px;
+border-radius:20px;
+}
+
+.trening-tekst{
+width:100%;
+height:	650px;
+background-color:#dde9f0;
+margin-bottom:50px;
+
+
+}
+
+#treninggru{
+float:right;	
+}
+#treningind{
+float:left;	
+}
+
+#naslovindividualnitrening{
+color:#2384B5;	
+text-align:center;
+padding-top:5px;
+font-size:35px;
+font-family: 'Francois One', sans-serif;
+margin-bottom:35px;
+text-shadow: 2px 2px black;
+
+}
+#cena{
+color:#990000;
+text-align:center;
+margin-bottom:80px;
+font-size:50px;
+
+}
+
+.listatrening {
+text-align:center;	
+
+
+}
+
+li::before {
+  content: "✔"; 
+  padding-right: 20px;
+  color:#2384b5;
+  
+  
+}
+
+
+.listatrening li {
+font-size:28px;
+margin-bottom:28px;	
+font-family: 'Francois One', sans-serif;
+list-style:none;
+
+}
+
+/*levo slika desno tekst*/
+
+#naslovgrupnitrening{
+color:#2384B5;	
+text-align:center;
+padding-top:5px;
+font-size:35px;
+font-family: 'Francois One', sans-serif;
+margin-bottom:35px;
+text-shadow: 2px 2px black;
+
+}
+
+#cena1{
+color:#990000;
+text-align:center;
+margin-bottom:80px;
+font-size:50px;
+
+}
+
+.listatrening1 {
+text-align:center;	
+
+}
+
+li::before {
+  content: "✔"; 
+  padding-right: 15px;
+  color:#2384b5;
+  
+  
+}
+
+
+.listatrening1 li {
+font-size:28px;
+margin-bottom:28px;	
+font-family: 'Francois One', sans-serif;
+list-style:none;
+
+}
+
+
+#slideshow{
+width:700px;
+height:408px;
+background-color:white;
+margin:auto;	
+}
+
+#sadrzajtreninga{
+width:100%;
+height:810px;
+background-color:white;
+display:flax;
+flex-direction: column;	
+padding:20px;
+margin-top:50px;
+}
+
+.trening{
+width:100%;
+height:250px;
+background-color:white;;
+margin-bottom:20px;
+
+	
+}
+
+.slicicasadrzaj{
+height:170px;
+float:right;
+margin-right:200px;	
+}
+
+.teksttrening{
+text-align:left;
+}
+.levozatekst{
+float:left;
+width:600px;
+height:240px;
+background-color:#ededed;	
+}
+.teksttrening{
+color:black;
+font-size:21px;
+text-align:center;	
+font-family: 'Francois One', sans-serif;
+
+
+}
+
+.podnaslov{
+font-family: 'Francois One', sans-serif;
+text-align:center;
+color:#2384b5;	
+}
+
+
+
